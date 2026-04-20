@@ -26,7 +26,6 @@ WIS-DRL is the appendix code for a hierarchical hybrid framework that combines P
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Outputs](#outputs)
-- [Notes](#notes)
 - [Citation](#citation)
 - [License](#license)
 
@@ -232,13 +231,6 @@ Generated artifacts are written to the following locations:
 - `benchmark_results/` for comparison tables, plots, and CSV files
 - `figures/` for maps and publication-style plots
 - `outputs/` for demo trajectories and rendered figures
-
-## Notes
-
-- The repository is designed to run as a script bundle, not as an installable Python package.
-- Omitting `--map` in `train.py` or `--map-type` in `train_end_to_end_continuous_rl.py` uses the built-in curriculum over `map_a`, `map_b`, and `map_c`; the explicit CLI map names are `map_a`, `map_b`, `map_c`, and `tri_mode_composite`.
-- The AFM helper, APT demo, AZR demo, NMPC tracker, and benchmark scripts are preserved for paper reproduction and qualitative inspection.
-- Fig. 1 is rendered from `figures/fig1.svg`; if you have the exact paper export, you can replace that file with a raster version.
 
 ## Citation
 
