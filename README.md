@@ -1,5 +1,7 @@
 # WIS-DRL
 
+English   [Chinese](README_zh.md)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 ![Paper Appendix](https://img.shields.io/badge/Paper%20Appendix--orange.svg)
@@ -12,10 +14,6 @@ WIS-DRL is the appendix code for a hierarchical hybrid framework that combines P
 
 ![Fig. 1. Overall architecture of the proposed hierarchical hybrid framework.](figures/fig1.png)
 
-## Language Versions
-
-- English: this file
-- 中文版: [README_zh.md](README_zh.md)
 
 ## Table of Contents
 
